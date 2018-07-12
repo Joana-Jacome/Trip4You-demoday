@@ -15,4 +15,11 @@ class Event extends Model
     {
         $this->hasMany('App\Registration');
     }
+
+    public function getDateFrom()
+    {
+        $column = 'Date from';
+
+        return $this[$column];
+    }
 }

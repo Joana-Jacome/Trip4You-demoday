@@ -16,12 +16,14 @@ Route::get('trips', 'PagesController@trips')->name('trips');
 Route::get('blog', 'PagesController@blog')->name('blog');
 Route::get('post/{post}', 'PagesController@singlePost')->name('singlePost');
 
-Route::get('azores', 'SubPagesController@azores')->name('azores');
-Route::get('berlin', 'SubPagesController@berlin')->name('berlin');
-Route::get('cinque', 'SubPagesController@cinque')->name('cinque');
-Route::get('istanbul', 'SubPagesController@istanbul')->name('istanbul');
-Route::get('prague', 'SubPagesController@prague')->name('prague');
-Route::get('vienna', 'SubPagesController@vienna')->name('vienna');
+Route::get('trips/{id}', 'SubPagesController@show')->name('singleTrip');
+
+// Route::get('azores', 'SubPagesController@azores')->name('azores');
+// Route::get('berlin', 'SubPagesController@berlin')->name('berlin');
+// Route::get('cinque', 'SubPagesController@cinque')->name('cinque');
+// Route::get('istanbul', 'SubPagesController@istanbul')->name('istanbul');
+// Route::get('prague', 'SubPagesController@prague')->name('prague');
+// Route::get('vienna', 'SubPagesController@vienna')->name('vienna');
 
 
 

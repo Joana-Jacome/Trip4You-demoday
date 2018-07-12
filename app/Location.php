@@ -8,8 +8,11 @@ class Location extends Model
 {
     public function tours()
     {
-        $this->hasMany('App\Tour');
+         return $this->hasMany('App\Tour');
     }
 
-    
+    public function getExcerpt()
+    {
+        return mb_strimwidth($this->description, 0, 200, '.');
+    }
 }

@@ -3,33 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Location;
 
 class SubPagesController extends Controller
 {
-    public function azores()
+    public function show($id)
     {
-        return view('pages.subpages.azores');
+        $location=Location::FindorFail($id);
+        $tours = $location->tours;
+        return view('pages.subpages.singleTrip', compact(['location','tours']));
     }
 
-    public function berlin()
-    {
-        return view('pages.subpages.berlin');
-    }
-    public function cinque()
-    {
-        return view('pages.subpages.cinque');
-    }
-    public function istanbul()
-    {
-        return view('pages.subpages.istanbul');
-    }
-    public function prague()
-    {
-        return view('pages.subpages.prague');
-    }
-    public function vienna()
-    {
-        return view('pages.subpages.vienna');
-    }
+   
 }
 

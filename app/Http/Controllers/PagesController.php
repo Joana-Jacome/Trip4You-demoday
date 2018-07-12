@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use App\Location;
 
 
 
@@ -14,7 +15,8 @@ class PagesController extends Controller
     }
 
     public function trips(){
-        return view('pages.trips');
+        $locations= Location::all();
+        return view('pages.trips', compact('locations'));
     }
 
     public function blog(){
