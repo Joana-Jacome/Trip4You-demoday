@@ -6,7 +6,7 @@
                 <div class="text-white text-center py-5 px-4 my-5">
                     <div>
                         <h1 class="card-title pt-3 mb-5 font-bold"><strong>Travel the World with Us</strong></h1>
-                        <p class="mx-5 mb-5">Trip4You is the a remote work travel group. We encourage participants coming from a diverse range of backgrounds and careers.These people support, engage and inspire each other – and some become lifelong friends.</p>
+                        <p class="mx-5 mb-5">Trip4You is a remote work travel group. We encourage participants coming from a diverse range of backgrounds and careers.These people support, engage and inspire each other – and some become lifelong friends.</p>
                         <a href="#readmore" class="btn btn-outline-white btn-rounded"><i class="fa fa-clone left"></i> View trips</a>
                     </div>
                 </div>

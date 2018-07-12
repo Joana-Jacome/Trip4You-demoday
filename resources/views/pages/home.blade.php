@@ -19,9 +19,9 @@
                             <hr class="hr-light">
 
                             <!-- Description -->
-                            <h4 class="white-text my-4">We’re always looking to provide new and unique, authentic experiences.</h4>
+                            <h4 class="white-text my-4">We’re always looking to provide new and unique, authentic experiences when you tour the world with us!</h4>
 
-                            <a href="#readmore" class="btn btn-outline-white">Read more <i class="fa fa-book ml-2"></i> </a>
+                            {{-- <a href="#readmore" class="btn btn-outline-white">Read more <i class="fa fa-book ml-2"></i> </a> --}}
 
                             
 
@@ -67,7 +67,7 @@
 
                     <h2> Who are we</h2>
                     <hr>
-                    <p>Trip4You is the a remote work travel group. We encourage participants coming from a diverse range of backgrounds and careers.These people support, engage and inspire each other – and some become lifelong friends.</p>
+                    <p>Trip4You is a remote work travel group. We encourage participants coming from a diverse range of backgrounds and careers.These people support, engage and inspire each other – and some become lifelong friends.</p>
                     
 
                 </div>
@@ -86,7 +86,7 @@
 
                     <h2>How we are working </h2>
                     <hr>
-                    <p>You can choose a trip and the appropriate tours with us. We facilitate your work in a foreign country, taking care of logistics. With us, you can accomplish your dream to working remote. </p>
+                    <p>You can choose a trip and the appropriate tours with us. We facilitate your work in a foreign country, taking care of logistics. With us, you can accomplish your dream to working remote whilst choosing your time when to work or have the most fun of your life! </p>
                     
 
                 </div>
@@ -183,7 +183,7 @@
         <!--Text-->
         <p class="card-text">For in-the-know travellers, the Azores have long represented a beckoning blip on the radar of possible destinations.</p>
         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <a href="azores.html" class="btn warning-color-dark"> Read more </a>  
+        <a href="{!! route('singleTrip', ['location' => '1']) !!}"  class="btn warning-color-dark"> Read more </a>  
   
       </div>
   
@@ -209,7 +209,7 @@
         <!--Text-->
         <p class="card-text">In Berlin, there’s always so much to do, every day of the year, any time of day or night – a sparkling array of events and highlights.</p>
         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <a href="berlin.html" class="btn warning-color-dark"> Read more </a>
+        <a href="{!! route('singleTrip', ['location' => '2']) !!}"  class="btn warning-color-dark"> Read more </a>
   
       </div>
   
@@ -235,7 +235,7 @@
         <!--Text-->
         <p class="card-text">The Cinque Terre is one of the most beautiful sections of the Italian Riviera coast, renowned for its UNESCO-listed landscapes.</p>
         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <a href="cinqueterre.html" class="btn warning-color-dark"> Read more </a> 
+        <a href="{!! route('singleTrip', ['location' => '3']) !!}"  class="btn warning-color-dark"> Read more </a> 
   
       </div>
   
@@ -316,26 +316,22 @@
 
                         <!--Excerpt-->
                         <a href="" class="teal-text">
-                            <h6 class="pb-1">
+                            <h5 class="pb-1">
                                 
-                                <strong> Travelling</strong>
-                            </h6>
+                                <strong> Our Stories</strong>
+                            </h5>
                         </a>
                         <h4 class="mb-3">
-                            <strong>This is title of the news</strong>
+                            <strong>How I found Holi Magical India after living two years in Delhi?</strong>
                         </h4>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-                            debitis aut rerum.</p>
+                        <p>Almost everything about India is stunning. I was 25 when I decided to move to India and today I still don’t know very well why I wanted to go there so much. One of the scariest and exciting idea ever and it was one of the best things I did in my life. India is a unique place, and the only way a person can get the real vibe of this country is going there.</p>
 
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-                            debitis aut rerum.</p>
+                        <p>I arrived in India on a Tuesday by 2 in the morning, stepped out of the airport and thought: ‘dear God, what have I done? What was I thinking?’. Yes, rule number 1: India slaps you in the face and that’s exactly what you look for when you consciously decide to move to this country. </p>
                         <p>by
                             <a>
-                                <strong>John Doe</strong>
+                                <strong>Teresa Santos</strong>
                             </a> July, 2018</p>
-                        <a class="btn warning-color-dark">Read more</a>
+                        <a  href="{!! route('singlePost', ['post' => '5']) !!}"  class="btn warning-color-dark">Read more</a>
 
                     </div>
                     <!--Grid column-->
@@ -407,7 +403,7 @@
                     
 
 
- <!--Modal: modalRelatedContent-->
+ {{-- <!--Modal: modalRelatedContent-->
 <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
 data-backdrop="false">
 <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
@@ -449,7 +445,7 @@ data-backdrop="false">
             
             <!--Section: Contact-->
 
-        </div>
+        </div> --}}
     </main>
     
      
