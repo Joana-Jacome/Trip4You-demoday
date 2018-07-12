@@ -1,5 +1,5 @@
 <div class="sidebar">
-        <nav class="sidebar-nav">
+        <nav class="sidebar-nav bg-dark">
             <ul class="nav">
                 <li class="nav-title">User</li>
 

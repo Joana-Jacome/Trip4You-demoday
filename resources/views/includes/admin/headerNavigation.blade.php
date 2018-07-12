@@ -4,7 +4,8 @@
         </a>
 
     <a class="navbar-brand" href="{{url('/')}}">
-        <img src="{{asset('admin/assets/imgs/travel.png')}}" alt="logo">
+       
+        <p class="text-center" id="icon" style="text-shadow: none; font-size: 20px; color: 	rgb(255,165,0); height: 60px; width: 86px; line-height: 86px; border-radius: 45%; text-align: center;"> Trip4You </p> 
         </a>
 
         <a href="#" class="btn btn-link sidebar-toggle d-md-down-none">
@@ -14,7 +15,7 @@
         <ul class="navbar-nav ml-auto">
             @if(Auth::user()->author == true)
               
-        <a href="{{route('newPost')}}" class="btn btn-primary">New Post</a>
+        <a href="{{route('newPost')}}" class="btn btn-warning mr-3">New Post</a>
 
             @endif
             

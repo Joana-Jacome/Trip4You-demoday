@@ -397,57 +397,57 @@
                         <!-- Form contact -->
 
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
                     
+                    <div class="col-lg-7 col-md-12">
 
+                        <!--Grid row-->
+                        <div class="row text-center">
 
- {{-- <!--Modal: modalRelatedContent-->
-<div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
-data-backdrop="false">
-<div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
-    <!--Content-->
-    <div class="modal-content">
-        <!--Header-->
-        <div class="modal-header warning-color-dark">
-            <p class="heading">Related article</p>
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-3">
 
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="white-text">&times;</span>
-                </button>
-        </div>
+                                <p>
+                                    <i class="fa fa-map fa-1x mr-2 grey-text"></i>New York, NY 10012</p>
 
-        <!--Body-->
-        <div class="modal-body">
+                            </div>
+                            <!--Grid column-->
 
-            <div class="row">
-                <div class="col-5">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(55).jpg" class="img-fluid" alt="">
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-3">
+
+                                <p>
+                                    <i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-3">
+
+                                <p>
+                                    <i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Google map-->
+                        <div id="map-container" class="z-depth-1-half map-container mb-5" style="width: 600px"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.573485931924!2d-74.00693927172915!3d40.725866669283846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25988b96f8647%3A0x523992653a20942d!2sNew+York%2C+NY+10012%2C+USA!5e0!3m2!1sen!2scz!4v1531435579660" width="600" height="560" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+                    </div>
                 </div>
+                <!--Grid column-->
 
-                <div class="col-7">
-                    <p><strong>My travel to paradise</strong></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</p>
-                    <button type="button" class="btn warning-color-dark btn-md">Read more</button>
-
-                </div>
             </div>
-        </div>
+            <!--Grid row-->
+
+        </section>
+        <!--Section: Contact-->
+
     </div>
-    <!--/.Content-->
-</div>
-</div>
-<!--Modal: modalRelatedContent-->
-
-                <!--Grid row-->
-
-            
-            <!--Section: Contact-->
-
-        </div> --}}
-    </main>
-    
-     
+</main>
+<!--Main layout-->
 
    @endsection 

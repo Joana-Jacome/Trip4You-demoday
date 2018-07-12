@@ -51,7 +51,7 @@
                     <div class="col-md-12">
                         <div class="text-center">
                             <h4 class="h1-reponsive white-text text-uppercase font-weight-bold mb-3 wow fadeInDown" data-wow-delay="0.3s"><strong>Adventures & Stories</strong></h4>
-                            <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+                            {{--  <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">  --}}
                             <h5 class="text-uppercase mb-5 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>People talking about travelling and overcoming fears</strong></h5>
                             
                         </div>
