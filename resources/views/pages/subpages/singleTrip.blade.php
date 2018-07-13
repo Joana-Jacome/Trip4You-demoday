@@ -123,7 +123,7 @@
                <select class="custom-select custom-select-md" multiple>
                    <option selected>{{$tour->name}}</option>
                    @foreach($tour->events as $event)
-                   <option value="{{$event->id}}">{{$event->getDateFrom()}}</option>
+                   <option value="{{$event->id}}">{{$event->getFormattedDates()}}</option>
                    @endforeach 
 
                </select>

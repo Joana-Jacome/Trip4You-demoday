@@ -23,5 +23,17 @@ class Event extends Model
         return $this[$column];
     }
 
+    public function getDateEnds()
+    {
+        $column = 'Date ends';
 
+        return $this[$column];
+    }
+
+    public function getFormattedDates()
+    {
+        return date('j', strtotime((string)$this->getDateFrom()))
+        . '-' 
+        . date('j F Y', strtotime((string)$this->getDateEnds()));
+    }
 }
