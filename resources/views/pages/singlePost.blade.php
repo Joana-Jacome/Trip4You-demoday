@@ -1,5 +1,5 @@
 
-@extends('layouts.main')
+@extends('layouts.master')
 @section('content')
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('{{asset('assets/img/post-bg.jpg')}}')">
